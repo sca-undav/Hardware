@@ -14,10 +14,12 @@ Thumbs.db
 *.out
 *.err
 
-# Archivos de LTspice
+# Archivos de Ltspice, redes y autoruteo
 *.raw
 *.net
 *.plt
+*.dsn
+*.ses
 
 # Archivos de Scilab
 *.bin
@@ -31,3 +33,19 @@ Thumbs.db
 *.swp
 *.bak
 
+# KiCad temporales
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+~*
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
